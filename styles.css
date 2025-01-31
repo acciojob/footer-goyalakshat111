@@ -1,1 +1,38 @@
 /* your code here */
+.content{
+	background-color:black;
+	color:white;
+	padding:10px;
+}
+.top{
+	display:flex;
+	justify-content:space-between;
+	margin:10px;
+	padding:10px;
+}
+.media-icons{
+	display:flex;
+	gap:10px;
+}
+.link-boxes{
+	display:flex;
+	justify-content:space-between
+}
+li{
+	list-style-type:none;
+}
+.bottom-details{
+	display:flex;
+	justify-content:space-between;
+	background-color:gray;
+	padding:20px;
+}
+
+@media screen and (max-width:480px){
+	
+	.link-boxes{
+	display:flex;
+	flex-direction:column;
+    }
+	
+}
